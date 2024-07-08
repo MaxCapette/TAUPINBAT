@@ -2,32 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: 0 0% 98%; /* Blanc cassé */
+    --foreground: 220 15% 20%; /* Bleu foncé */
+    --card: 210 20% 95%; /* Bleu très clair */
+    --card-foreground: 220 15% 20%; /* Bleu foncé */
+    --popover: 210 20% 95%; /* Bleu très clair */
+    --popover-foreground: 220 15% 20%; /* Bleu foncé */
+    --primary: 220 80% 60%; /* Bleu vif */
+    --primary-foreground: 210 100% 98%; /* Blanc pur */
+    --secondary: 220 40% 90%; /* Bleu pâle */
+    --secondary-foreground: 220 15% 30%; /* Bleu moyen */
+    --muted: 220 40% 90%; /* Bleu pâle */
+    --muted-foreground: 220 15% 50%; /* Gris bleu */
+    --accent: 220 50% 85%; /* Bleu léger */
+    --accent-foreground: 220 15% 30%; /* Bleu moyen */
+    --destructive: 0 72% 51%; /* Rouge */
+    --destructive-foreground: 0 0% 100%; /* Blanc */
+    --border: 220 20% 80%; /* Bleu grisâtre */
+    --input: 220 20% 80%; /* Bleu grisâtre */
+    --ring: 220 80% 60%; /* Bleu vif */
+    --radius: 0.5rem; /* Bord arrondi */
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.backgroundCustom {
+  background: whitesmoke;
 }
