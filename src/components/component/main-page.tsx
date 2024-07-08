@@ -279,7 +279,7 @@ export function MainPage() {
           <p className="   ">91000 EVRY-COURCOURONNES </p>
           <p className="  mt-4 ">contact@taupinbat.fr</p>
 
-          <p className="  mt-4 ">TEL: 05 35 54 19 41</p>
+          <p className="  mt-4 ">TEL: 01 84 18 03 83</p>
         </div>
       </footer>
     </div>
