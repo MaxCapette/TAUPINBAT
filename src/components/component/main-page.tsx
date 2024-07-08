@@ -110,7 +110,7 @@ export function MainPage() {
                 </Link>
               </div>
               <div>
-              <img
+                <img
                   src="/intro.jpeg"
                   width={600}
                   height={400}
@@ -212,9 +212,9 @@ export function MainPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground">
-                  &quot;L&apos;équipe de TAUPINBAT a été très réactive et efficace
-                    pour résoudre un problème urgent sur notre chambre froide.
-                    Nous sommes très satisfaits de leur service.&quot;
+                    &quot;L&apos;équipe de TAUPINBAT a été très réactive et
+                    efficace pour résoudre un problème urgent sur notre chambre
+                    froide. Nous sommes très satisfaits de leur service.&quot;
                   </p>
                 </CardContent>
               </Card>
@@ -230,9 +230,10 @@ export function MainPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground">
-                  &quot;Nous faisons confiance à TAUPINBAT depuis des années pour
-                    l&apos;entretien de nos meubles réfrigérés. Leur service est
-                    toujours de qualité et leur expertise est incontestable.&quot;
+                    &quot;Nous faisons confiance à TAUPINBAT depuis des années
+                    pour l&apos;entretien de nos meubles réfrigérés. Leur
+                    service est toujours de qualité et leur expertise est
+                    incontestable.&quot;
                   </p>
                 </CardContent>
               </Card>
@@ -248,8 +249,8 @@ export function MainPage() {
                     </div>
                   </div>
                   <p className="text-muted-foreground">
-                  &quot;Nous avons fait appel à TAUPINBAT pour la maintenance de
-                    notre système de climatisation. Leur intervention a été
+                    &quot;Nous avons fait appel à TAUPINBAT pour la maintenance
+                    de notre système de climatisation. Leur intervention a été
                     rapide et leur travail de qualité. Nous les recommandons
                     sans hésiter.&quot;
                   </p>
@@ -326,7 +327,6 @@ function FolderIcon(props: any) {
   );
 }
 
-
 function MenuIcon(props: any) {
   return (
     <svg
@@ -347,8 +347,6 @@ function MenuIcon(props: any) {
     </svg>
   );
 }
-
-
 
 function RefrigeratorIcon(props: any) {
   return (
